@@ -19,4 +19,10 @@ public class Main {
         
         String result2 = StringConcatenator.concatStrings("Hello", "World", "Java", "test1", "test2");
         System.out.println("Случай когда s4 != s5: " + result2);
+
+     System.out.println("\nЗадание 4: Проверка четности без %");
+        int number1 = 10;
+        int number2 = 15;
+        System.out.println(number1 + " четное? " + ParityChecker.isEven(number1));
+        System.out.println(number2 + " четное? " + ParityChecker.isEven(number2));
 }
