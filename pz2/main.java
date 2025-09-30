@@ -12,4 +12,11 @@ public class Main {
         System.out.println("Массив: " + java.util.Arrays.toString(array));
         System.out.println("Сумма четных: " + sumResult.getEvenSum());
         System.out.println("Сумма нечетных: " + sumResult.getOddSum());
+
+     System.out.println("\nЗадание 3: Конкатенация строк по условию");
+        String result1 = StringConcatenator.concatStrings("Hello", "World", "Java", "test", "test");
+        System.out.println("Случай когда s4 == s5: " + result1);
+        
+        String result2 = StringConcatenator.concatStrings("Hello", "World", "Java", "test1", "test2");
+        System.out.println("Случай когда s4 != s5: " + result2);
 }
