@@ -22,3 +22,20 @@ public class ArraySumCalculator {
         return new ArraySumResult(evenSum, oddSum);
     }
 }
+class ArraySumResult {
+    private final int evenSum;
+    private final int oddSum;
+    
+    public ArraySumResult(int evenSum, int oddSum) {
+        this.evenSum = evenSum;
+        this.oddSum = oddSum;
+    }
+    
+    public int getEvenSum() {
+        return evenSum;
+    }
+    
+    public int getOddSum() {
+        return oddSum;
+    }
+}
