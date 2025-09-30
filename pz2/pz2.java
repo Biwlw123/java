@@ -39,3 +39,13 @@ class ArraySumResult {
         return oddSum;
     }
 }
+
+public class StringConcatenator {
+    public static String concatStrings(String s1, String s2, String s3, String s4, String s5) {
+        if (s4.equals(s5)) {
+            return s1 + s2;
+        } else {
+            return s1 + s3;
+        }
+    }
+}
