@@ -25,4 +25,10 @@ public class Main {
         int number2 = 15;
         System.out.println(number1 + " четное? " + ParityChecker.isEven(number1));
         System.out.println(number2 + " четное? " + ParityChecker.isEven(number2));
+
+     System.out.println("\n Задание 5: Скалярное произведение векторов");
+        double[] vectorA = {1e20, 1223, 1e18, 1e15, 3, 1e-12};
+        double[] vectorB = {1e20, 2, 1e-22, 1e13, 2111, 1e16};
+        double dotProduct = VectorOperations.dotProduct(vectorA, vectorB);
+        System.out.printf("Скалярное произведение: %e%n", dotProduct);
 }
