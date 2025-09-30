@@ -2,6 +2,7 @@ package pz2;
 
 public class Main {
     public static void mainn(String[] args)
+    {
      System.out.println("Задание 1: Расстояние между точками");
         double distance = PointDistance.calculateDistance(1, 2, 4, 5);
         System.out.printf("Расстояние между точками (1,2) и (4,5): %.2f%n", distance);
@@ -31,4 +32,10 @@ public class Main {
         double[] vectorB = {1e20, 2, 1e-22, 1e13, 2111, 1e16};
         double dotProduct = VectorOperations.dotProduct(vectorA, vectorB);
         System.out.printf("Скалярное произведение: %e%n", dotProduct);
+     System.out.println("\nЗадание 6: Решение квадратного уравнения");
+        QuadraticEquation.solve(1, -3, 2);  
+        QuadraticEquation.solve(1, 2, 5);   
+        QuadraticEquation.solve(1, -4, 4);  
+    
+    }
 }
